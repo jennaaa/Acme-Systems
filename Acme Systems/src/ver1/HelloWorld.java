@@ -7,8 +7,12 @@ public class HelloWorld {
 	}
 	
 	public static void heyNow() {
-		String Msg = "Hey Now!";
-		System.out.println(Msg);
+		String msg = "Hey Now!";
+		System.out.println(msg);
+	}
+	
+	public static void whatFor(String str) {
+		System.out.println(str + ", what for?");
 	}
 
 
